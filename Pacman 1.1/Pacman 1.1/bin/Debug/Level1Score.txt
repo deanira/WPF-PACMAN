@@ -1,0 +1,16 @@
+Thursday , Jul 23 2020, 10:50:29 PM : 0
+Thursday , Jul 23 2020, 11:00:02 PM : 9
+Thursday , Jul 23 2020, 11:00:12 PM : 9
+Thursday , Jul 23 2020, 11:00:33 PM : 6
+Thursday , Jul 30 2020, 06:21:28 AM : 6
+Thursday , Jul 30 2020, 06:25:27 AM : 9
+Thursday , Jul 30 2020, 06:25:30 AM : 0
+Thursday , Jul 30 2020, 06:25:55 AM : 11
+Thursday , Jul 30 2020, 06:29:16 AM : 24
+Thursday , Jul 30 2020, 06:46:26 AM : 15
+Thursday , Jul 30 2020, 06:47:06 AM : 36
+Thursday , Jul 30 2020, 06:47:11 AM : 8
+Thursday , Jul 30 2020, 10:14:16 AM : 0
+Thursday , Jul 30 2020, 10:14:22 AM : 0
+Thursday , Jul 30 2020, 10:14:49 AM : 24
+Thursday , Jul 30 2020, 10:14:55 AM : 0

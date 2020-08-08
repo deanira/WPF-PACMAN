@@ -1,0 +1,71 @@
+﻿<Window x:Class="Pacman.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pacman"
+        mc:Ignorable="d"
+        Title="Pacman Game" Height="700" Width="600" Background="Black"
+        xmlns:gif ="https://github.com/XamlAnimatedGif/XamlAnimatedGif" WindowStyle="ThreeDBorderWindow">
+    <Canvas x:Name ="MyCanvas" Background="Black" KeyDown="KeyIsDown" KeyUp="KeyIsUp" Focusable="True">
+        <Frame x:Name="Main" NavigationUIVisibility="Hidden"/>
+        <Rectangle Tag="obs" Fill="#FF0013DD" HorizontalAlignment="Left" Height="233" Canvas.Left="161" Canvas.Top="0" Stroke="Black" VerticalAlignment="Top" Width="41"/>
+        <Rectangle Tag="obs" Fill="#FF0013DD" HorizontalAlignment="Left" Height="233" Canvas.Left="363" Canvas.Top="0" Stroke="Black" VerticalAlignment="Top" Width="41"/>
+        <Rectangle Tag="obs" Fill="#FF0013DD" HorizontalAlignment="Left" Height="233" Canvas.Left="235" Canvas.Top="437" Stroke="Black" VerticalAlignment="Top" Width="41"/>
+        <Rectangle Tag="obs" Fill="#FF0013DD" HorizontalAlignment="Left" Height="233" Canvas.Left="458" Canvas.Top="437" Stroke="Black" VerticalAlignment="Top" Width="41"/>
+        <Image x:Name="redGhost" Tag="ghost" HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="45" gif:AnimationBehavior.SourceUri="Resources\red_guy.gif"/>
+        <Image x:Name="yellowGhost" Tag="ghost" HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="45" gif:AnimationBehavior.SourceUri="Resources\yellow_guy.gif"/>
+        <Image x:Name="pinkGhost" Tag="ghost" HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="45" gif:AnimationBehavior.SourceUri="Resources\pink_guy.gif"/>
+        <!--<Rectangle x:Name="pacman" Height="55" Width="55"/>-->
+        <Image x:Name="pacman" Tag="pacman" HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="55" gif:AnimationBehavior.SourceUri="Resources\right.gif"/>
+        <Image x:Name="coin" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="183" Canvas.Top="476" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="133" Canvas.Top="476" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy1" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="83" Canvas.Top="476" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy2" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="183" Canvas.Top="534" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy3" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="133" Canvas.Top="534" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy4" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="83" Canvas.Top="534" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy5" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="321" Canvas.Top="19" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy6" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="271" Canvas.Top="19" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy7" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="221" Canvas.Top="19" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy8" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="321" Canvas.Top="73" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy9" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="271" Canvas.Top="73" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy10" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="221" Canvas.Top="73" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy11" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="401" Canvas.Top="455" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy12" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="351" Canvas.Top="455" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy13" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="301" Canvas.Top="455" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy14" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="401" Canvas.Top="570" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy15" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="351" Canvas.Top="570" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy16" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="301" Canvas.Top="570" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy17" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="401" Canvas.Top="618" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy18" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="351" Canvas.Top="618" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy19" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="301" Canvas.Top="618" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy20" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="537" Canvas.Top="19" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy21" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="487" Canvas.Top="19" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy22" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="437" Canvas.Top="19" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy23" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="537" Canvas.Top="73" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy24" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="487" Canvas.Top="73" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy25" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="437" Canvas.Top="73" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy26" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="537" Canvas.Top="134" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy27" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="487" Canvas.Top="134" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy28" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="437" Canvas.Top="134" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy29" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="537" Canvas.Top="192" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy30" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="487" Canvas.Top="192" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy31" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="437" Canvas.Top="192" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy32" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="559" Canvas.Top="618" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy33" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="509" Canvas.Top="618" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy34" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="559" Canvas.Top="570" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy35" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="509" Canvas.Top="570" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy36" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="559" Canvas.Top="516" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy37" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="509" Canvas.Top="516" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy38" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="559" Canvas.Top="455" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy39" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="509" Canvas.Top="455" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy40" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="183" Canvas.Top="593" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy41" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="133" Canvas.Top="593" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <Image x:Name="coin_Copy42" Tag="coin" HorizontalAlignment="Left" Height="25" Canvas.Left="83" Canvas.Top="593" VerticalAlignment="Top" Width="25" gif:AnimationBehavior.SourceUri="Resources\coin.gif"/>
+        <TextBlock x:Name="txtScore" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Score : 0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" Margin="1,1,0,0"/>
+        <TextBlock x:Name="txtGameOver" FontWeight="Bold" Foreground="#FF003AFF" Canvas.Left="135" Canvas.Top="230" FontSize="60"></TextBlock>
+        <TextBlock x:Name="txtWhyGameOver" FontWeight="Bold" Foreground="Red" Canvas.Left="240" Canvas.Top="300" FontSize="14"></TextBlock>
+        <Button x:Name="btnRestart" Click="btnRestart_Click"  Background="White" BorderBrush="Red" FontSize="30" Canvas.Left="216" Canvas.Top="340" Width="150" Height="65" Visibility="Hidden" Content="Restart"></Button>
+        <Button x:Name="btnNextLevel" Click="btnNextLevel_Click"  Background="White" BorderBrush="Red" FontSize="20" Canvas.Left="216" Canvas.Top="340" Width="150" Height="65" Visibility="Hidden" Content="Next Level"></Button>
+    </Canvas>
+</Window>

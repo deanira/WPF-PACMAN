@@ -1,0 +1,36 @@
+D:\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\Pacman 1.1.csprojAssemblyReference.cache
+D:\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\MainWindow.g.cs
+D:\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\App.g.cs
+D:\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\Pacman 1.1_MarkupCompile.cache
+D:\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\Pacman 1.1_MarkupCompile.lref
+D:\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\bin\Debug\Pacman 1.1.exe.config
+D:\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\bin\Debug\Pacman 1.1.exe
+D:\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\bin\Debug\Pacman 1.1.pdb
+D:\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\MainWindow.baml
+D:\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\Pacman 1.1.g.resources
+D:\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\Pacman_1._1.Properties.Resources.resources
+D:\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\Pacman 1.1.csproj.GenerateResource.cache
+D:\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\Pacman 1.1.csproj.CoreCompileInputs.cache
+D:\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\Pacman 1.1.exe
+D:\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\Pacman 1.1.pdb
+D:\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\bin\Debug\XamlAnimatedGif.dll
+D:\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\Pacman 1.1.csproj.CopyComplete
+D:\Kuliah\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\bin\Debug\Pacman 1.1.exe.config
+D:\Kuliah\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\bin\Debug\Pacman 1.1.exe
+D:\Kuliah\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\bin\Debug\Pacman 1.1.pdb
+D:\Kuliah\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\bin\Debug\XamlAnimatedGif.dll
+D:\Kuliah\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\Pacman 1.1.csprojAssemblyReference.cache
+D:\Kuliah\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\MainWindow.g.cs
+D:\Kuliah\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\App.g.cs
+D:\Kuliah\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\Pacman 1.1_MarkupCompile.cache
+D:\Kuliah\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\Pacman 1.1_MarkupCompile.lref
+D:\Kuliah\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\MainWindow.baml
+D:\Kuliah\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\Pacman 1.1.g.resources
+D:\Kuliah\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\Pacman_1._1.Properties.Resources.resources
+D:\Kuliah\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\Pacman 1.1.csproj.GenerateResource.cache
+D:\Kuliah\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\Pacman 1.1.csproj.CoreCompileInputs.cache
+D:\Kuliah\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\Pacman 1.1.csproj.CopyComplete
+D:\Kuliah\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\Pacman 1.1.exe
+D:\Kuliah\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\Pacman 1.1.pdb
+D:\Kuliah\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\Level2.g.cs
+D:\Kuliah\KULIAH akademik\Semester 4\Bengkel Aplikasi Desktop\Proyek UAS\Pacman 1.1\Pacman 1.1\obj\Debug\Level2.baml
